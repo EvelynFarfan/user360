@@ -1,0 +1,241 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.h2{
+  color: #68B4FF;
+  font-size: 250%;
+  margin: 5% 0;
+}
+.cyan{
+  color: #68B4FF
+}
+.lista{
+  margin-left: 3%;
+}
+/* ------ Header: Section : Menu --------- */
+#menu{
+	background-color: rgba(255,255,255, 0.1);
+  border: none;
+  padding-bottom: 1%; 
+}
+#boton-menu{
+	margin: 1% 1% 0 0;
+}
+.menu .container-fluid .collapse #boton-menu li a{
+	color: white
+}
+.menu .container-fluid .collapse #boton-menu li a:hover{
+	background-color: #538ACC;
+}
+/* ------ Header: Section : banner --------- */
+.banner{
+	background-image: url(../image/large.jpg);
+  background-size: cover;
+  position: relative;
+}
+.title-banner{
+	background-color: rgba(42, 53, 65,0.3);
+  height: 700px;
+  padding: 20% 23%;
+}
+.title-banner h1{
+	font-size: 360%
+}
+/* ------ Header: Section : franja-azul --------- */
+#franja-azul{
+	background-color: rgba(88,165,255,0.6);
+  width: 100%;
+  height: 20%;
+  margin-top: 14px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding-top: 2%;
+}
+div.boton1{
+	width: 30%;
+  height: 55px;
+  padding: 2.3% 0 0 5%;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  margin-top: 4%;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 120%;
+}
+div.boton1:hover{
+	background-color: #395FA7;
+}
+div.boton1 a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+/* ------ Section : Servicios --------- */
+#servicion h2{
+  color: #68B4FF;
+  font-size: 250%;
+  margin: 5% 0;
+}
+#servicios a{
+  font-size: 300%;
+  padding: 10%;
+  border-radius: 50%;
+  box-shadow: 5px 5px 6px #c4c4c4;
+}
+#servicios a:hover{
+  color: white;
+  background-color: #528BCD;
+  text-decoration: none;
+}
+.text-servicios{
+  margin: 20% 0 0 5%;
+}
+#servicios h3{
+  color: #528BCD;
+}
+/* ------ Section: Separador --------- */
+#separador {
+  padding: 4% 0%;
+  position: relative;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+#separador img {
+  position: absolute;
+  width: 7%;
+  left: 44%;
+  top: 13%;
+}
+/* ------ Section: Ejemplo --------- */
+#ejemplo {
+  border-bottom: 1px solid #eee;
+  position: relative;
+  padding-bottom: 5%;
+}
+#ejemplo .logo2{
+  width: 50%;
+  float: left;
+  margin-left: 33%;
+  margin-top: -13%;
+}
+/* ------ Section: comprar --------- */
+#comprar{
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+.img-comprar {
+  background-image: url(../image/sec-2.jpg);
+  background-size: cover;
+  height: 500px;
+  padding: 0;
+}
+.img-filtro{
+  background-color: rgba(0,0,0,0.4);
+  height: 500px;
+}
+.text-comprar{
+  padding: 1% 5% 0 5%;
+}
+.tetx-comprar h3{
+  color: ;
+}
+#comprar .icon {
+  display: inline-block;
+  font-size: 30px;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #50BDEA;
+  color: white;
+}
+#comprar .icon, #comprar img {
+  position: absolute;
+  left: 47.8%;
+  z-index: 1;
+}
+#comprar .icon-pencil {
+  top: 15%;
+}
+#comprar .icon-tools {
+  top: 40%;
+}
+#comprar .icon-tools-2 {
+  top: 65%;
+} 
+#comprar .cuatro {
+  bottom: 0;
+  width: 7%;
+  margin-bottom: -50px;
+  margin-left: -1.4%;
+}
+/* ------ Section: uso --------- */
+#uso{
+  padding: 7% 0;
+}
+#uso .logo2{
+  width: 50%;
+  float: left;
+  margin-left: 38%;
+  margin-top: -13%;
+}
+/* ------ Section: prueba2 --------- */
+.prueba2{
+  background-color: #74A3DB;
+  padding: 2% 0;
+}
+.boton2{
+  width: 52%;
+  height: 55px;
+  padding: 2% 0 0 11%;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  margin-top: 4%;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 160%;
+  float: right;
+}
+div.boton2:hover{
+  background-color: #395FA7;
+}
+div.boton2 a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+/* ------ Section: footer --------- */
+footer{
+  background-color: #2A3541;
+  padding: 3% 0
+}
+.icon-social{
+  font-size: 300%;
+  margin: 0 2% 0 0;
+}
+.icon-social:hover{
+  color: white;
+  text-decoration: none;
+}
+.copyright{
+  margin-top: 2.7%;;
+}
+@media (min-width: 320px) and (max-width: 1067px){
+  .banner{
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 320px) and (max-width: 992px){
+  #comprar .icon{
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 600px){
+  .title-banner h1 {
+    font-size: 250%;
+  }
+}
